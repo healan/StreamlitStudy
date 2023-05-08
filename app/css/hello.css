@@ -1,0 +1,29 @@
+.appview-container .main .block-container {
+    width: 100%;
+    min-width: auto;
+    max-width: initial;
+    padding-top: 10px;
+}
+
+.css-zt5igj{
+    display: grid;
+    justify-content: center;
+
+}
+
+.css-1a32fsj.e19lei0e0{
+    width: 100%;
+}
+
+.stMarkdown{
+    width: 1000px;
+}
+
+.total-dc{
+    display: inline-flex;
+}
+
+/* 컨터이너 별 색상 */
+/* .css-204fer {
+    background-color: #484848;
+} */

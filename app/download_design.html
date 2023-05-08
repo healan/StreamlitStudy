@@ -1,0 +1,185 @@
+<div id="container">
+<div id="contArea">
+<div class="sub-title">
+<h2>다운로드 센터</h2>
+</div>
+<div class="real-cont">
+<div class="board-search">
+  <div class="total-page">페이지정보 : 1 / 2</div>
+  <div class="search">
+    <form name="form1" method="get" action="/support/data.php">
+      <input type="hidden" name="boardid" value="download">
+      <input type="hidden" name="sw" value="a">
+      <!-- <label for="bbsCate" class="hide">분류옵션</label> -->
+      <select name="category" class="select" id="bbsCate">
+        <option value="" selected="selected">전체</option>
+        <option value="메뉴얼">메뉴얼</option>
+        <option value="카타로그">카타로그</option>
+        <option value="비전프로그램">비전프로그램</option>
+        <option value="바코드프로그램">바코드프로그램</option>
+        <option value="펌웨어">펌웨어</option>
+        <option value="CAD파일">CAD파일</option>
+        <option value="검사예시파일">검사예시파일</option>
+      </select>
+      <!-- <label for="keyword" class="hide">검색어</label> -->
+      <input type="text" name="sk" id="keyword" class="input" value="">
+      <input type="submit" value="검색" class="btn-pack btn">
+    </form>
+  </div>
+</div>
+      <div class="board-list">
+        <table>
+          <!-- <caption>게시판 목록</caption> -->
+          <colgroup>
+            <col width="80">
+            <col width="180">
+            <col>
+            <col width="120">
+            <col width="120">
+            <col width="160">
+          </colgroup>
+          <thead>
+            <tr>
+              <th scope="col">번호</th>
+              <th scope="col">구분</th>
+              <th scope="col">제목</th>
+              <th scope="col">버전</th>
+              <th scope="col">등록일</th>
+              <th scope="col">파일보기</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="no"><span class="label">공지</span></td>
+              <td class="cate">메뉴얼</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=61&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="Smart Camera Full Manual">Smart Camera Full Manual</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=61&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="Smart Camera Full Manual">20.09</a></td>
+              <td>2021-03-23</td>
+              <td><a href="javascript:download('download','61','943');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">13</td>
+              <td class="cate">비전프로그램</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=72&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno_eye_vision_manager_install_004_014_018_015">inno_eye_vision_manager_install_004_014_018_015</a>
+              </td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=72&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno_eye_vision_manager_install_004_014_018_015">004_014_018_015</a></td>
+              <td>2021-09-06</td>
+              <td><a href="javascript:download('download','72','951');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">12</td>
+              <td class="cate">펌웨어</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=71&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="T4000시리즈 펌웨어">T4000시리즈 펌웨어</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=71&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="T4000시리즈 펌웨어">201_071_018_015</a></td>
+              <td>2021-06-30</td>
+              <td><a href="javascript:download('download','71','950');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">11</td>
+              <td class="cate">펌웨어</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=65&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="S2000시리즈 펌웨어">S2000시리즈 펌웨어</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=65&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="S2000시리즈 펌웨어">111_011_018_015</a></td>
+              <td>2021-05-13</td>
+              <td><a href="javascript:download('download','65','947');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">10</td>
+              <td class="cate">펌웨어</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=64&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="S1000시리즈 펌웨어 ">S1000시리즈 펌웨어 </a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=64&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="S1000시리즈 펌웨어 ">008_073_018_015</a></td>
+              <td>2021-05-13</td>
+              <td><a href="javascript:download('download','64','946');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">9</td>
+              <td class="cate">펌웨어</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=60&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="InnoEyeFirmUpdater_u_Win32_public">InnoEyeFirmUpdater_u_Win32_public</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=60&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="InnoEyeFirmUpdater_u_Win32_public">public</a></td>
+              <td>2021-03-12</td>
+              <td><a href="javascript:download('download','60','942');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">8</td>
+              <td class="cate">CAD파일</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=56&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno-eye T4000 series">inno-eye T4000 series</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=56&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno-eye T4000 series">200522</a></td>
+              <td>2020-05-22</td>
+              <td><a href="javascript:download('download','56','938');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">7</td>
+              <td class="cate">CAD파일</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=8&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="Barcode Reader">Barcode Reader</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=8&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="Barcode Reader">180928</a></td>
+              <td>2018-10-02</td>
+              <td><a href="javascript:download('download','8','380');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">6</td>
+              <td class="cate">CAD파일</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=7&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno-eye s2100 series">inno-eye s2100 series</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=7&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno-eye s2100 series">180928</a></td>
+              <td>2018-10-02</td>
+              <td><a href="javascript:download('download','7','379');" class="btn-down">File Download</a></td>
+            </tr>
+            <tr>
+              <td class="no">5</td>
+              <td class="cate">CAD파일</td>
+              <td class="subject"><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=6&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno-eye s2000 series">inno-eye s2000 series</a></td>
+              <td><a
+                  href="/support/data.php?boardid=download&amp;mode=view&amp;idx=6&amp;sk=&amp;sw=&amp;offset=0&amp;category="
+                  title="inno-eye s2000 series">180928</a></td>
+              <td>2018-10-02</td>
+              <td><a href="javascript:download('download','6','378');" class="btn-down">File Download</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="paginate">
+        <a class="direction first disabled" href="#"><span>처음페이지</span></a> <strong>1</strong> &nbsp; <a
+          href="/support/data.php?boardid=download&amp;sk=&amp;sw=&amp;category=&amp;offset=10">2</a> &nbsp;<a
+          class="direction last"
+          href="/support/data.php?boardid=download&amp;sk=&amp;sw=&amp;category=&amp;offset=10"><span>마지막페이지</span></a>
+      </div>
+      <!-- content //-->
+    </div>
+  </div>
+</div>

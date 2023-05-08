@@ -1,0 +1,371 @@
+.appview-container .main .block-container {
+    width: 100%;
+    min-width: auto;
+    max-width: initial;
+    padding-top: 0px;
+}
+
+body,
+input,
+textarea,
+select,
+button,
+table {
+    font-family: 'Noto Sans KR', 'Apple Gothic', 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #5d5d5d;
+    word-break: keep-all;
+    -webkit-text-size-adjust: none;
+}
+
+#contArea {
+    width: 1200px;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sub-title {
+    padding: 0 0 20px 0;
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.sub-title h2 {
+    color: #3f3d42;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.3em;
+    letter-spacing: -.03em;
+}
+
+.sub-title.type2 {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.real-cont {
+    min-height: 200px;
+    padding: 0 0 30px;
+}
+
+/* 검색 */
+.board-search {
+    *zoom: 1;
+    max-width: 1200px;
+    margin: 0 auto 10px;
+}
+
+.board-search:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.board-search .total-page {
+    float: left;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+}
+
+.board-search .search {
+    float: right;
+}
+
+.board-search form {
+    display: inline-block;
+}
+
+.board-search .select {
+    min-width: 120px;
+    background: #fafafa;
+}
+
+.board-search .input {
+    width: 200px;
+}
+
+.board-search .btn-pack {
+    height: 35px !important;
+    padding: 0 17px !important;
+    line-height: 33px !important;
+    font-size: 15px !important;
+    color: #fff;
+    background: #555 !important;
+    border: 1px solid #555;
+}
+
+.board-search .doc-tit {
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+
+/* 리스트  */
+.board-list {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.board-list table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    border-top: 2px solid #868686;
+}
+
+.board-list table thead th {
+    height: 45px;
+    border-bottom: 1px solid #ddd;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 400;
+    background: #f5f5f5;
+}
+
+.board-list table thead th a {
+    display: inline-block;
+}
+
+.board-list table thead th img {
+    vertical-align: middle;
+    margin: -.2em 0 0 5px;
+}
+
+.board-list table tbody td {
+    padding: 11px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: #797979;
+}
+
+.board-list table tbody td.subject {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.board-list table tbody td.subject2 {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.board-list table tbody td img {
+    vertical-align: middle;
+}
+
+.board-list table tbody td a {
+    color: inherit;
+}
+
+.board-list table tbody td a:hover {
+    text-decoration: underline;
+}
+
+.board-list .label {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    color: #fff;
+    background: #ff6000;
+    font-weight: 500;
+    padding: 0 6px;
+    font-size: 11px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+
+.board-list .comment {
+    color: #ff6000;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+.board-list .status {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    min-width: 80px;
+    background: #9b9b9b;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 13px;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: -.04em;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.board-list .status.status-1 {
+    background: #9b9b9b;
+}
+
+.board-list .status.status-2 {
+    background: #555555;
+}
+
+.board-list .status.status-3 {
+    background: #dc1417;
+}
+
+.board-list .status.status-4 {
+    background: #f37043;
+}
+
+/* 페이지목록 */
+.paginate {
+    margin: 30px 0;
+    text-align: center;
+    line-height: normal;
+}
+
+.paginate a,
+.paginate strong {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    position: relative;
+    padding: 0;
+    margin: 0 1px;
+    width: 34px;
+    height: 34px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.paginate strong {
+    color: #fff;
+    border-color: #dc1417;
+    background-color: #dc1417;
+}
+
+.paginate a.direction {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.paginate a.direction span {
+    font-size: 0;
+    line-height: 0;
+    text-indent: -999px;
+}
+
+.paginate a.direction.first {
+    background-image: url("/images/bbs/btn_first.png");
+}
+
+.paginate a.direction.prev {
+    background-image: url("/images/bbs/btn_prev.png");
+}
+
+.paginate a.direction.next {
+    background-image: url("/images/bbs/btn_next.png");
+}
+
+.paginate a.direction.last {
+    background-image: url("/images/bbs/btn_last.png");
+}
+
+.paginate a.direction.disabled {
+    display: none;
+}
+
+/* user class */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th,
+.bold {
+    font-weight: 700;
+}
+
+.semibold {
+    font-weight: 500;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.hide {
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    font: 0/0 Arial;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.input {
+    height: 35px;
+    padding: 5px 9px;
+    font-size: 15px;
+    line-height: 23px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.textarea {
+    padding: 5px 9px;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid #ddd;
+    overflow: auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.select {
+    height: 35px;
+    padding: 5px 9px;
+    font-size: 15px;
+    line-height: 23px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+input[type=file].input {
+    border: 0;
+    padding: 0;
+}

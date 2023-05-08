@@ -1,0 +1,47 @@
+.appview-container .main .block-container {
+    width: 100%;
+    min-width: auto;
+    max-width: initial;
+    padding-top: 10px;
+}
+
+.css-zt5igj{
+    display: grid;
+    justify-content: center;
+
+}
+
+button.css-fxzapv.edgvbvh10 {
+    justify-content: center;
+}
+
+button.css-firdtp.edgvbvh11 {
+    width: 130px;
+}
+
+#src {
+    padding: 10px 0px 10px 0px;
+}
+
+#dst {
+    padding: 10px 0px 10px 0px;
+}
+
+.css-1fn0gf4 {
+    gap: 5px;
+}
+
+.css-18qxc8h.e1tzin5v1 {
+    height: 600px ;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.block-container.css-1y4p8pa.egzxvld4 {
+    padding-bottom: 10px;
+}
+
+.stMarkdown{
+    width: 1000px;
+}
+

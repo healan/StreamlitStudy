@@ -1,0 +1,22 @@
+.appview-container .main .block-container {
+    width: 100%;
+    min-width: auto;
+    max-width: initial;
+    padding-top: 10px;
+}
+
+div.stDataFrame.css-17b7mgn {
+    width: 1324px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+button.css-firdtp.edgvbvh11 {
+    width: 80px;
+}
+
+button.css-fxzapv.edgvbvh10 {
+    justify-content: left;
+}
